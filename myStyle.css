@@ -1,0 +1,29 @@
+body
+{
+    background-image: url('1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p
+{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+h1,h2
+{
+    color: white;
+}
+a
+{
+    color: aqua;
+}
+
+a:hover
+{
+    background-color: lightgoldenrodyellow;
+    color: blue
+}

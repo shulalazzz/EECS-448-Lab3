@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #p {
+            border: thick solid black;
+        }
+
+        .block {
+            width: 400px;
+            display: block;
+            margin: 5px 0;
+        }
+
+
+        label {
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: CSS Manipulation</title>
+    <script src="exe4.js"></script>
+</head>
+
+<body>
+    <p id="p">These is a paragraph...OK it is actually a sentence.</p>
+    <div class="block">
+        Border<br />
+        <label>Red value </label>
+        <input id="red_border" placeholder="Enter value"><br />
+        <label>Green value</label>
+        <input id="green_border" placeholder="Enter value"><br />
+        <label>Blue value</label>
+        <input id="blue_border" placeholder="Enter value"><br />
+        <label>Width</label>
+        <input id="width" placeholder="Enter value"><br />
+    </div>
+    <div class="block">
+        Background<br />
+        <label>Red value</label>
+        <input id="red_back" placeholder="Enter value"><br />
+        <label>Green value</label>
+        <input id="green_back" placeholder="Enter value"><br />
+        <label>Blue value</label>
+        <input id="blue_back" placeholder="Enter value"><br />
+        <button id="confirm">Confirm</button>
+    </div>
+    <div>
+        <span id="info"></span>
+    </div>
+
+</body>
+
+</html>
